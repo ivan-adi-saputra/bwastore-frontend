@@ -1,0 +1,31 @@
+.botton-group {
+  @include media-breakpoint-up(lg) {
+    botton {
+      margin-left: -40px;
+    }
+  }
+  @include media-breakpoint-down(md) {
+    botton {
+      margin-left: -80px;
+    }
+  }
+  .botton {
+    color: #1e1e1e;
+    font-size: 13px;
+    background-color: transparent;
+    border: 1px solid #9da2aa;
+    border-radius: 8px;
+    padding: 3px 17px;
+  }
+
+  .dropdown-menu {
+    margin-bottom: -20px;
+    width: 150px;
+    border-radius: 10px;
+
+    a {
+      font-size: 14px;
+      color: #1e1e1e;
+    }
+  }
+}

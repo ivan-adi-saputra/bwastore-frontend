@@ -1,0 +1,168 @@
+.page-details {
+  a:hover {
+    text-decoration: none;
+  }
+  h5 {
+    color: #0c0d36;
+    font-size: 18px;
+    font-weight: 300;
+  }
+  .store-heading {
+    margin-bottom: 10px;
+
+    .title {
+      margin-top: 30px;
+    }
+
+    h1 {
+      font-size: 24px;
+      line-height: 36px;
+      margin-bottom: 0px;
+      color: #0c0d36;
+    }
+
+    .price {
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 27px;
+      color: #ff7158;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+
+    .cart-col {
+      margin-right: 5px;
+    }
+    .button-checkout-1 {
+      margin-right: -10px;
+    }
+
+    .button-cart {
+      background-color: #fff;
+      border: 1px solid #1b273d;
+      border-radius: 7px;
+      width: 160px;
+
+      .text {
+        color: #1b273d;
+        font-weight: 600;
+        font-size: 10px;
+      }
+    }
+
+    .button-checkout {
+      @include media-breakpoint-down(md) {
+        margin-left: 30px;
+      }
+
+      background-color: #1b273d;
+      //   border: 1px solid #1b273d;
+      border-radius: 7px;
+      width: 130px;
+
+      .text {
+        color: #ffffff;
+        font-weight: 500;
+        font-size: 10px;
+      }
+    }
+
+    .button-whatsapp {
+      background-color: #fff;
+      border: 1px solid #40ae58;
+      border-radius: 10px;
+      width: 190px;
+      height: 35px;
+      margin-top: 18px;
+
+      p {
+        color: #40ae58;
+        font-size: 13px;
+        font-weight: 600;
+      }
+    }
+  }
+
+  .store-gallery {
+    margin-bottom: 20px;
+
+    img {
+      border-radius: 10px;
+    }
+
+    .thumbnail-image {
+      margin-bottom: 20px;
+      border: 2px solid transparent;
+      height: 90px;
+      width: 190px;
+
+      &:hover,
+      &.active {
+        border: 2px solid #ff7158;
+      }
+    }
+  }
+  .store-description {
+    margin-top: 45px;
+
+    p {
+      font-size: 16px;
+      color: #525252;
+      line-height: 180%;
+    }
+  }
+
+  .comment {
+    margin-top: 100px;
+
+    .title {
+      font-size: 18px;
+      font-weight: 500;
+    }
+
+    .title-urutkan {
+      font-size: 15px;
+      font-weight: 500;
+      margin-right: 10px;
+    }
+
+    .urutkan li {
+      display: inline-block;
+    }
+    .dropdown-comment {
+      border: 1px solid #9da2aa;
+      border-radius: 10px;
+      padding: 5px 10px;
+
+      font-size: 14px;
+      font-weight: 500;
+      color: #000;
+    }
+    .dropdown-width {
+      width: 100px;
+    }
+    .dropdown-menu {
+      a {
+        font-size: 14px;
+        font-weight: 500;
+        padding-right: -20px;
+      }
+    }
+  }
+
+  .hr {
+    border-bottom: 2px solid #ebedee;
+    margin-top: 20px;
+  }
+
+  .pagination * {
+    border: 0;
+  }
+  .pagination a {
+    color: #9da2aa;
+  }
+  .active-page {
+    color: #000 !important;
+    font-weight: bold;
+  }
+}

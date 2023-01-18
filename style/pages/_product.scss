@@ -1,0 +1,18 @@
+.page-product {
+  @include media-breakpoint-down(md) {
+    .urutan {
+      margin-right: 30px;
+    }
+  }
+  @include media-breakpoint-up(lg) {
+    .urutan {
+      //   margin-right: 130px;
+    }
+  }
+
+  .urutan {
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 0px;
+  }
+}

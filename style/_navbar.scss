@@ -1,0 +1,64 @@
+.navbar-store {
+  padding-top: 20px !important;
+  padding-bottom: 20px !important;
+  background-color: #fff !important;
+  border-bottom: 1px solid #4b4a4a;
+
+  @include media-breakpoint-down(md) {
+    // down -> lebar maxs
+    background-color: #fff !important;
+  }
+
+  .navbar-brand {
+    margin-left: 20px;
+  }
+
+  .navbar-nav {
+    margin-right: 10px;
+  }
+
+  .nav-item {
+    .nav-link {
+      @include media-breakpoint-up(lg) {
+        // up -> Lebar min
+        margin-left: 5px;
+      }
+    }
+  }
+
+  .profile-picture {
+    max-height: 45px;
+  }
+
+  .cart-badge {
+    display: inline-block;
+    min-width: 2em;
+    padding: 0.3em;
+    border-radius: 50%;
+    font-size: 10px;
+    text-align: center;
+    background: #1b273d;
+    color: #fefefe;
+    margin-left: -10px;
+    position: relative;
+    top: -8px;
+  }
+
+  .dropdown-menu {
+    margin-left: -100px;
+    margin-top: 10px;
+    border-radius: 10px;
+    // border: 1px solid #1b273d;
+    width: 150px;
+
+    a {
+      margin-bottom: 10px;
+      margin-top: -10px;
+    }
+  }
+}
+
+.navbar-fixed-top.scrolled {
+  background-color: #fff !important;
+  transition: background-color 200ms linear;
+}

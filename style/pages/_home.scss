@@ -1,0 +1,68 @@
+.page-home {
+  h5 {
+    @include media-breakpoint-down(md) {
+      font-size: 15px;
+    }
+    font-weight: 600;
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #0c0d36;
+  }
+
+  .store-carousel {
+    margin-top: -20px;
+  }
+
+  .store-product {
+    margin-top: 50px;
+  }
+
+  // breadcrumb
+  .breadcrumb {
+    background-color: #fff;
+    margin-top: -10px;
+
+    .store-breadcrumb {
+      margin-left: -10px;
+
+      .nav-link {
+        @include media-breakpoint-up(lg) {
+          font-size: 14px;
+          margin-right: 20px;
+        }
+        @include media-breakpoint-down(md) {
+          font-size: 10px;
+          margin-right: 5px;
+        }
+        color: $greyColor;
+      }
+      .nav-link:hover::after {
+        content: "";
+        display: block;
+        color: $greyColor;
+        border-bottom: 2px solid $greyColor;
+        width: 100%;
+        padding-bottom: 5px;
+        margin-bottom: -7px;
+      }
+    }
+  }
+
+  .learn-more {
+    font-weight: bold;
+    color: $blueColor;
+    font-size: 15px;
+    margin-top: -10px;
+    margin-left: 20px;
+
+    @include media-breakpoint-down(md) {
+      font-size: 13px;
+    }
+  }
+  .learn-more-product {
+    margin-left: 0px;
+  }
+  a:hover {
+    text-decoration: none;
+  }
+}
