@@ -1,12 +1,25 @@
 .page-product {
   @include media-breakpoint-down(md) {
+    .botton-group {
+      margin-left: -95px;
+    }
     .urutan {
-      margin-right: 30px;
+      margin-left: -70px;
+    }
+    .product {
+      .button-diskon {
+        position: relative;
+        right: -70px;
+      }
     }
   }
   @include media-breakpoint-up(lg) {
     .urutan {
-      //   margin-right: 130px;
+      margin-left: -60px;
+    }
+
+    .botton-group {
+      margin-left: -80px;
     }
   }
 
@@ -14,5 +27,16 @@
     font-size: 15px;
     font-weight: 600;
     margin-top: 0px;
+  }
+
+  .pagination * {
+    border: 0;
+  }
+  .pagination a {
+    color: #9da2aa;
+  }
+  .active-page {
+    color: #000 !important;
+    font-weight: bold;
   }
 }

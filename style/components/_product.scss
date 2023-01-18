@@ -74,12 +74,12 @@
     }
     @include media-breakpoint-up(lg) {
       .button-diskon {
-        margin-right: 100px;
+        margin-right: 140px;
       }
     }
     @include media-breakpoint-down(md) {
       .button-diskon {
-        margin-right: 60px;
+        margin-right: 130px;
       }
     }
     .button-diskon {
