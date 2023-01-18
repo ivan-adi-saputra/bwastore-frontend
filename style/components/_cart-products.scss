@@ -1,0 +1,36 @@
+.cart-products {
+  .product-name {
+    font-size: 16px;
+    color: #1b273d;
+    font-weight: 500;
+  }
+  .price {
+    font-size: 12px;
+    font-weight: 600;
+  }
+
+  .wishlist {
+    font-size: 12px;
+    font-weight: 300;
+    color: #6c727c;
+    margin-top: 50px;
+    padding-right: 5px;
+
+    border-right: 1px solid #6c727c;
+  }
+  .delete {
+    color: #6c727c;
+    margin-top: 40px;
+  }
+  a:hover {
+    text-decoration: none;
+    color: #6c727c;
+  }
+  .highlight {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .padding {
+    padding: 5px;
+  }
+}

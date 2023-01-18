@@ -1,4 +1,5 @@
 .filter {
+  position: fixed;
   @include media-breakpoint-up(lg) {
     width: 180px;
   }

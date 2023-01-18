@@ -9310,8 +9310,8 @@ footer .footer p {
 }
 
 .navbar-store {
-  padding-top: 20px !important;
-  padding-bottom: 20px !important;
+  padding-top: 13px !important;
+  padding-bottom: 13px !important;
   background-color: #fff !important;
   border-bottom: 1px solid #4b4a4a;
 }
@@ -9321,7 +9321,7 @@ footer .footer p {
   }
 }
 .navbar-store .navbar-brand {
-  margin-left: 20px;
+  margin-left: 15px;
 }
 .navbar-store .navbar-nav {
   margin-right: 10px;
@@ -9608,6 +9608,54 @@ footer .footer p {
   font-weight: bold;
 }
 
+.page-cart .cart-breadcrumb .title-cart {
+  font-size: 22px;
+  font-weight: 500;
+  color: #1b273d;
+}
+.page-cart .cart-breadcrumb .jumlah {
+  font-size: 22px;
+  color: #1b273d;
+}
+.page-cart .checkout .title {
+  font-size: 15px;
+  font-weight: 600;
+}
+.page-cart .checkout .product-name {
+  font-size: 15px;
+  margin-top: 10px;
+  margin-bottom: -5px;
+}
+.page-cart .checkout .price {
+  font-size: 12px;
+  font-weight: 600;
+  margin-top: 10px;
+  margin-bottom: -5px;
+}
+.page-cart .hr {
+  border-bottom: 1px solid #d9d9d9;
+  margin-top: 100px;
+}
+.page-cart .total {
+  font-size: 14px;
+  font-weight: 600;
+}
+.page-cart .botton-checkout {
+  width: 100%;
+  background-color: #1b273d;
+  border-radius: 10px;
+}
+.page-cart a {
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.cart-product label {
+  font-size: 14px;
+  color: #6c727c;
+}
+
 .components-product .product {
   border: 0.3px solid #d9d9d9;
   border-radius: 15px;
@@ -9716,6 +9764,9 @@ footer .footer p {
   color: #979797;
 }
 
+.filter {
+  position: fixed;
+}
 @media (min-width: 992px) {
   .filter {
     width: 180px;
@@ -9837,4 +9888,37 @@ footer .footer p {
 .botton-group .dropdown-menu a {
   font-size: 14px;
   color: #1e1e1e;
+}
+
+.cart-products .product-name {
+  font-size: 16px;
+  color: #1b273d;
+  font-weight: 500;
+}
+.cart-products .price {
+  font-size: 12px;
+  font-weight: 600;
+}
+.cart-products .wishlist {
+  font-size: 12px;
+  font-weight: 300;
+  color: #6c727c;
+  margin-top: 50px;
+  padding-right: 5px;
+  border-right: 1px solid #6c727c;
+}
+.cart-products .delete {
+  color: #6c727c;
+  margin-top: 40px;
+}
+.cart-products a:hover {
+  text-decoration: none;
+  color: #6c727c;
+}
+.cart-products .highlight {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.cart-products .padding {
+  padding: 5px;
 }/*# sourceMappingURL=main.css.map */
