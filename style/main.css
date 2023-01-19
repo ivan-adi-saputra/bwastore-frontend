@@ -9656,6 +9656,63 @@ footer .footer p {
   color: #6c727c;
 }
 
+.page-wishlist .title-cart {
+  font-size: 20px;
+  font-weight: 600;
+  color: #1b273d;
+}
+.page-wishlist .item {
+  font-size: 14px;
+  margin-top: 8px;
+}
+.page-wishlist .title {
+  font-size: 18px;
+  font-weight: 500;
+}
+.page-wishlist .title-urutkan {
+  font-size: 15px;
+  font-weight: 600;
+  margin-right: 10px;
+}
+.page-wishlist .urutkan li {
+  display: inline-block;
+}
+.page-wishlist .dropdown-comment {
+  border: 1px solid #9da2aa;
+  border-radius: 10px;
+  padding: 5px 10px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #000;
+}
+.page-wishlist .dropdown-menu {
+  height: 50px;
+}
+.page-wishlist .dropdown-menu a {
+  font-size: 14px;
+  font-weight: 500;
+  margin-left: -10px;
+  margin-top: -20px;
+}
+.page-wishlist .hr {
+  border-bottom: 1px solid #9da2aa;
+  margin-top: 8px;
+}
+.page-wishlist a:hover {
+  text-decoration: none;
+}
+.page-wishlist .icon-wishlist {
+  position: relative;
+  top: -75px;
+  right: -140px;
+}
+.page-wishlist .icon-wishlist li {
+  margin-right: 20px;
+}
+.page-wishlist .icon-wishlist li a {
+  color: #000;
+}
+
 .components-product .product {
   border: 0.3px solid #d9d9d9;
   border-radius: 15px;
