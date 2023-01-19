@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+
+    <title>SmartUp - Furniture</title>
+
+    <!-- Animasi -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <!-- Bootstrap -->
+    <!-- <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    /> -->
+
+    <!-- icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
+    <!-- CSS -->
+    <link href="style/main.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand bg-light fixed-top navbar-store">
+      <div class="container">
+        <a class="navbar-brand" href="/index.html">
+          <img
+            src="/images/logo-brand.svg"
+            alt=""
+            class="logo-brand"
+            height="35"
+          />
+        </a>
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link d-inline-block" href="/wishlist.html">
+              <img src="/images/wishlist.svg" alt="" />
+              <div class="cart-badge">2</div>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="">
+              <img src="/images/border-right.svg" alt="" />
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link d-inline-block" href="#">
+              <img src="/images/cart.svg" alt="" />
+              <div class="cart-badge">2</div>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="">
+              <img src="/images/border-right.svg" alt="" />
+            </a>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown"
+              href="#"
+              role="button"
+              data-toggle="dropdown"
+            >
+              <img src="/images/humberger-menu.svg" alt="" />
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">
+                  <img src="/images/home-logo.svg" alt="" /> Homepage
+                </a>
+                <a class="dropdown-item" href="#">
+                  <img src="/images/dashboard-logo.svg" alt="" /> Dashboard
+                </a>
+                <a class="dropdown-item" href="#">
+                  <img src="/images/profile-logo.svg" alt="" /> Profile
+                </a>
+                <a class="dropdown-item" href="#">
+                  <img src="/images/setting-logo.svg" alt="" /> Pengaturan
+                </a>
+                <a class="dropdown-item" href="#">
+                  <img src="/images/logout-logo.svg" alt="" /> Logout
+                </a>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- akhir navbar -->
+
+    <!-- content -->
+    <div class="page-content page-profile">
+      <div class="d-flex" data-aos="fade-right">
+        <div class="container">
+          <div class="row">
+            <div class="col-2 col-lg-3">
+              <!-- desktop -->
+              <section class="sidebar d-none d-lg-flex">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-3 mt-3">
+                      <img
+                        class="rounded-circle"
+                        src="/images/profile-user.jpg"
+                        alt=""
+                        height="40"
+                      />
+                    </div>
+                    <div class="col-9 mt-4 name">Yu Peng Chen</div>
+                  </div>
+                  <div class="hr"></div>
+                  <ul class="title" style="list-style: none">
+                    <li class="mt-3 active">
+                      <a href="">
+                        <i class="bi bi-person"></i> <span>Profile Saya</span>
+                      </a>
+                    </li>
+                    <li class="mt-3">
+                      <a href="">
+                        <i class="bi bi-heart"></i> <span>Wishlist</span>
+                      </a>
+                    </li>
+                    <li class="mt-3">
+                      <a href="">
+                        <i class="bi bi-clipboard2-pulse"></i>
+                        <span>Daftar Transaksi</span>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </section>
+              <!-- mobile -->
+              <section class="sidebar-md d-block d-lg-none">
+                <div class="row justify-content-center">
+                  <div class="col-12 mt-3">
+                    <ul class="nav nav-pills flex-column mb-auto">
+                      <li class="nav-item">
+                        <img
+                          class="rounded-circle"
+                          height="50"
+                          src="/images/profile-user.jpg"
+                          alt=""
+                        />
+                        <div
+                          class="text-center mt-3"
+                          style="font-size: 10px; font-weight: 600"
+                        >
+                          Yu Peng Chen
+                        </div>
+                      </li>
+                      <li class="nav-item mt-3 text-center">
+                        <a href="#" class="nav-link active" aria-current="page">
+                          <h4><i class="bi bi-person"></i></h2>
+                        </a>
+                      </li>
+                      <li class="nav-item mt-3 text-center">
+                        <a href="#" class="nav-link link-dark">
+                          <h4><i class="bi bi-heart"></i></h2>
+                        </a>
+                      </li>
+                      <li class="nav-item mt-3 text-center">
+                        <a href="#" class="nav-link link-dark">
+                          <h4><i class="bi bi-clipboard2-pulse"></i></h2>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </section>
+            </div>
+            <div class="col-10 col-lg-9">
+              <section class="profile-sidebar">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-lg-12 title">
+                      <h3>Profile Saya</h3>
+                      <p>
+                        Kelola informasi profil Anda untuk mengontrol,
+                        melindungi dan mengamankan akun
+                      </p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-6 col-lg-3 ">
+                        <div class="profile shadow p-3 mb-5 bg-body rounded">
+                            <img class="img-thumbnail text-center" height="80" src="/images/profile-user.jpg" alt="">
+
+                            <a
+                                class="btn btn-light mt-3 d-block pilih-gambar"
+                                href=""
+                                style=" background-color: #fff;
+                                        border: 1px solid #9da2aa;
+                                        border-radius: 6px;"
+                                >
+                                <div class="text">Pilih Gambar</div>
+                            </a>
+                            <div class="note mt-2">
+                                <p>Ukuran gambar: maksimum 1 MB</p>
+                                <p style="margin-top: -15px;">Format gambar: .JPEG, .PNG</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-9">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <div class="mb-3 row">
+                                    <label for="name" class="col-sm-3 col-form-label">Name</label>
+                                    <div class="col-sm-9">
+                                    <input type="text" class="form-control" id="name" placeholder="Masukkan Nama">
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <div class="mb-3 row">
+                                    <label for="email" class="col-sm-3 col-form-label">Email</label>
+                                    <div class="col-sm-9">
+                                    <input type="email" class="form-control" id="email" placeholder="youremail@gmail.com">
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <div class="mb-3 row">
+                                    <label for="nomor" class="col-sm-3 col-form-label">Nomor Telepon</label>
+                                    <div class="col-sm-9">
+                                    <input type="number" class="form-control" id="nomor" placeholder="+62 ">
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <div class="mb-3 row">
+                                    <label for="address_one" class="col-sm-3 col-form-label">Alamat 1</label>
+                                    <div class="col-sm-9">
+                                    <input type="text" class="form-control" id="address_one" placeholder="Rt / Rw Ds. ">
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <div class="mb-3 row">
+                                    <label for="address_two" class="col-sm-3 col-form-label">Alamat 2</label>
+                                    <div class="col-sm-9">
+                                    <input type="text" class="form-control" id="address_two" placeholder="Kec. Kab. ">
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <div class="mb-3 row">
+                                    <label for="address_two" class="col-sm-3 col-form-label">Jenis Kelamin</label>
+                                    <div class="col-sm-9 mt-1">
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="laki-laki" value="option1">
+                                            <label class="form-check-label" for="laki-laki">Laki Laki</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="perempuan" value="option2">
+                                            <label class="form-check-label" for="perempuan">Perempuan</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <div class="mb-3 row">
+                                    <label for="tanggal_lahir" class="col-sm-3 col-form-label">Tanggal Lahir</label>
+                                    <div class="col-sm-9 ">
+                                        <input class="form-control" type="date" id="tanggal_lahir">
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="row mt-3">
+                            <div class="col-12 text-center">
+                                <a href="" class="btn btn-dark button-cart">
+                                    Simpan
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+            </div>
+          </div>
+        </div>
+        <!-- Page Content -->
+      </div>
+    </div>
+
+    <!-- footer -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-lg-4">
+            <div class="smartup-footer">
+              <h3>SmartUp</h3>
+              <p>
+                SmartUp Furniture ingin memanfaatkan internet untuk meningkatkan
+                penjualan dan memperluas pangsa pasar dengan mengimplementasikan
+                Website Berbasis E-Commerce.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-2"></div>
+
+          <div class="col-6 col-lg-3">
+            <div class="peta-footer">
+              <h4>Peta Situs</h4>
+              <div class="paragraf">
+                <p>Beranda</p>
+                <p>Tentang</p>
+                <p>Event</p>
+                <p>FAQ</p>
+                <p>Dashboard</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-6 col-lg-3">
+            <div class="contact-footer">
+              <h4>Kontak Kami</h4>
+              <p>
+                JL. KH Achmad Fauzan No.17, 59453, Krasak, Bangsri, Kec.
+                Bangsri, Kabupaten Jepara, Jawa Tengah 59415
+              </p>
+              <a href="http://smkn1bangsri.sch.id/">smkn1bangsri</a>
+              <p>smartupcompany@yahoo.com</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <section class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <p>Copyritght 2022 || SmartUp || All right reserved</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </footer>
+    <!-- akhir footer -->
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="/vendor/jquery/jquery.slim.min.js"></script>
+    <script src="/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="sidebars.js"></script>
+    <script src="script/navbar-scroll.js"></script>
+  </body>
+</html>

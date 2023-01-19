@@ -1,0 +1,72 @@
+.sidebar {
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  @include media-breakpoint-up(lg) {
+    width: 215px;
+    height: 564px;
+  }
+
+  .name {
+    font-size: 13px;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+    margin-left: -5px;
+    color: #313131;
+  }
+  .hr {
+    border-bottom: 1px solid #9da2aa;
+    margin-top: 20px;
+    width: 100%;
+    // margin-left: -15px;
+  }
+  .title {
+    margin-left: -35px;
+    margin-top: 25px;
+
+    .active {
+      i {
+        color: #313131;
+      }
+      span {
+        color: #313131;
+      }
+    }
+    i {
+      color: #9da2aa;
+    }
+
+    span {
+      margin-left: 10px;
+
+      font-size: 13px;
+      font-family: "Inter", sans-serif;
+      font-weight: 600;
+      color: #9da2aa;
+    }
+  }
+  a {
+    text-decoration: none;
+    color: #313131;
+  }
+}
+
+.sidebar-md {
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  height: 1000px;
+
+  //   ul {
+  //     margin-left: -10px;
+  //   }
+  //   .name-mobile {
+  //     margin-left: -10px;
+  //   }
+  img {
+    margin-left: 15px;
+  }
+  a {
+    color: #313131;
+    text-decoration: none;
+  }
+  //   h1 {
+  //     padding: 15px 0px;
+  //   }
+}
