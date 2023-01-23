@@ -11,6 +11,8 @@
 @import "pages/cart";
 @import "pages/wishlist";
 @import "pages/profile";
+@import "pages/profile-transaction";
+@import "pages/modal";
 
 @import "components/product";
 @import "components/breadcrumb";
@@ -20,3 +22,4 @@
 @import "components/cart-products";
 @import "components/sidebar";
 @import "components/sidebars";
+@import "components/transaction-content";

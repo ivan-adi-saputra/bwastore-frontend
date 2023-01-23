@@ -1,0 +1,22 @@
+.transaction-content {
+  ul li a {
+    text-decoration: none;
+    color: rgb(123, 123, 123);
+    font-size: 13px;
+    font-weight: 500;
+  }
+  .nav-pills {
+    border-bottom: 1px solid #9191a9;
+    .nav-link {
+      font-size: 13px;
+      font-weight: 600;
+      color: #9191a9;
+      border-radius: 0;
+      &.active {
+        color: #0c0d36;
+        border-bottom: 2px solid #0c0d36;
+        background: none;
+      }
+    }
+  }
+}

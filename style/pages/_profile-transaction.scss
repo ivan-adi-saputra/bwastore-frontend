@@ -1,0 +1,73 @@
+.profile-sidebar {
+}
+.transaction {
+  height: 700px !important;
+  .h3 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #313131;
+  }
+  .h3::after {
+    content: "";
+    display: block;
+    border-bottom: 1px solid #9da2aa;
+    margin-top: 25px;
+  }
+}
+
+.status {
+  p {
+    font-size: 10px;
+    color: #0095da;
+  }
+  padding: 5px 10px 3px 10px;
+  background-color: #daf3ff;
+  border: 1px solid #0095da;
+  border-radius: 5px;
+  height: 25px;
+  width: 75px;
+}
+@include media-breakpoint-up(lg) {
+  .status {
+    position: relative;
+    right: -40px;
+  }
+}
+@include media-breakpoint-down(md) {
+  .ulasan {
+    position: relative;
+    left: -40px;
+  }
+}
+
+.ulasan {
+  color: #0095da;
+  border-radius: 10px;
+  margin-top: 25px;
+
+  a {
+    height: 28px;
+    width: 115px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 10px;
+    font-weight: 600;
+  }
+  .btn-primary:hover {
+    background-color: #0095da;
+    color: #fff;
+  }
+  .number {
+    font-weight: bold;
+  }
+}
+.pagination * {
+  border: 0;
+}
+.pagination a {
+  color: #9da2aa;
+}
+.active-page {
+  color: #000 !important;
+  font-weight: bold;
+}

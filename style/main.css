@@ -9768,6 +9768,197 @@ footer .footer p {
   font-weight: bold;
 }
 
+.transaction {
+  height: 700px !important;
+}
+.transaction .h3 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #313131;
+}
+.transaction .h3::after {
+  content: "";
+  display: block;
+  border-bottom: 1px solid #9da2aa;
+  margin-top: 25px;
+}
+
+.status {
+  padding: 5px 10px 3px 10px;
+  background-color: #daf3ff;
+  border: 1px solid #0095da;
+  border-radius: 5px;
+  height: 25px;
+  width: 75px;
+}
+.status p {
+  font-size: 10px;
+  color: #0095da;
+}
+
+@media (min-width: 992px) {
+  .status {
+    position: relative;
+    right: -40px;
+  }
+}
+@media (max-width: 991.98px) {
+  .ulasan {
+    position: relative;
+    left: -40px;
+  }
+}
+.ulasan {
+  color: #0095da;
+  border-radius: 10px;
+  margin-top: 25px;
+}
+.ulasan a {
+  height: 28px;
+  width: 115px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 10px;
+  font-weight: 600;
+}
+.ulasan .btn-primary:hover {
+  background-color: #0095da;
+  color: #fff;
+}
+.ulasan .number {
+  font-weight: bold;
+}
+
+.pagination * {
+  border: 0;
+}
+
+.pagination a {
+  color: #9da2aa;
+}
+
+.active-page {
+  color: #000 !important;
+  font-weight: bold;
+}
+
+@media (max-width: 991.98px) {
+  .modal-page .name {
+    margin-left: 30px;
+    font-size: 8px;
+  }
+  .modal-page .price {
+    margin-left: 30px;
+    font-size: 10px;
+  }
+  .modal-page .pesanan {
+    font-size: 12px;
+  }
+}
+@media (min-width: 992px) {
+  .modal-page .name {
+    margin-left: -15px;
+  }
+  .modal-page .price {
+    margin-left: -15px;
+  }
+  .modal-page .pesanan {
+    font-size: 14px;
+  }
+}
+.modal-page .name {
+  font-size: 14px;
+  font-weight: 600;
+}
+.modal-page .price {
+  font-size: 14px;
+}
+.modal-page .pesanan {
+  color: #95979a;
+}
+.modal-page .title {
+  font-size: 14px;
+  color: #95979a;
+}
+.modal-page textarea::-moz-placeholder {
+  font-size: 12px;
+}
+.modal-page textarea:-ms-input-placeholder {
+  font-size: 12px;
+}
+.modal-page textarea::placeholder {
+  font-size: 12px;
+}
+.modal-page p {
+  font-size: 12px;
+  color: #95979a;
+}
+.modal-page .tips {
+  border: 1px solid #95979a;
+  border-radius: 5px;
+  width: 223px;
+  height: 248px;
+}
+.modal-page .tips .judul {
+  font-size: 11px;
+  color: #95979a;
+  margin-left: 10px;
+  font-weight: 600;
+}
+.modal-page .tips li {
+  font-size: 10px;
+  color: #95979a;
+  margin-left: -15px;
+}
+.modal-page .upload-btn-wrapper {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+.modal-page .btn {
+  border: 1px solid #6c727c;
+  color: #6c727c;
+  background-color: white;
+  padding: 6px 20px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 600;
+}
+.modal-page .upload-btn-wrapper input[type=file] {
+  font-size: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+.modal-page .batal {
+  border: 2px solid #95979a;
+  border-radius: 5px;
+  height: 32px;
+  width: 86px;
+  position: relative;
+  right: -30px;
+}
+.modal-page .batal p {
+  font-size: 13px;
+  color: #000;
+  font-weight: 600;
+  margin-top: -2px;
+}
+.modal-page .send {
+  border: 2px solid #1b273d;
+  border-radius: 5px;
+  background-color: #1b273d;
+  height: 32px;
+  width: 86px;
+}
+.modal-page .send p {
+  font-size: 13px;
+  color: #fff;
+  font-weight: 600;
+  margin-top: -2px;
+}
+
 .components-product .product {
   border: 0.3px solid #d9d9d9;
   border-radius: 15px;
@@ -10156,4 +10347,25 @@ main {
 
 .scrollarea {
   overflow-y: auto;
+}
+
+.transaction-content ul li a {
+  text-decoration: none;
+  color: rgb(123, 123, 123);
+  font-size: 13px;
+  font-weight: 500;
+}
+.transaction-content .nav-pills {
+  border-bottom: 1px solid #9191a9;
+}
+.transaction-content .nav-pills .nav-link {
+  font-size: 13px;
+  font-weight: 600;
+  color: #9191a9;
+  border-radius: 0;
+}
+.transaction-content .nav-pills .nav-link.active {
+  color: #0c0d36;
+  border-bottom: 2px solid #0c0d36;
+  background: none;
 }/*# sourceMappingURL=main.css.map */
