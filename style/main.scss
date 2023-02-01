@@ -13,6 +13,8 @@
 @import "pages/profile";
 @import "pages/profile-transaction";
 @import "pages/modal";
+@import "pages/checkout";
+@import "pages/transaction-success";
 
 @import "components/product";
 @import "components/breadcrumb";
@@ -23,3 +25,11 @@
 @import "components/sidebar";
 @import "components/sidebars";
 @import "components/transaction-content";
+
+@import "dashboard/components/card";
+@import "dashboard/components/card_dashboard";
+@import "dashboard/components/card_list";
+
+@import "dashboard/pages/dashboard";
+
+@import "dashboard/transitions/slide-fade";

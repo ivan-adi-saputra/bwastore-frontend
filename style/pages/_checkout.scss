@@ -1,0 +1,153 @@
+.page-checkout {
+  .title {
+    font-size: 20px;
+    font-weight: 500;
+    // margin-left: 20px;
+  }
+  .title::after {
+    content: "";
+    display: block;
+    border-top: 1px solid #d9d9d9;
+    margin-top: 30px;
+  }
+
+  .pengiriman {
+    // width: 624px;
+    .card {
+      border: 1px solid #d5d5d5;
+
+      .judul {
+        font-size: 16px;
+        font-weight: 500;
+      }
+
+      label {
+        font-size: 12px;
+      }
+    }
+  }
+
+  .h3 {
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .ekspedisi {
+    border: 1px solid #d5d5d5;
+    border-radius: 5px;
+    margin-left: 15px;
+    .form-check-input {
+      height: 22px;
+      margin-left: 0px;
+    }
+    input:checked {
+      height: 18px;
+      width: 18px;
+      background-color: #9da2aa;
+    }
+    .margin {
+      margin-left: 30px;
+    }
+    .text {
+      font-size: 14px;
+      font-weight: 500;
+    }
+    .estimasi {
+      font-size: 12px;
+      color: #9da2aa;
+      margin-top: -5px;
+    }
+    .check-ekspedisi {
+      border: 1px solid #9da2aa;
+      border-radius: 5px;
+    }
+  }
+
+  //   metode pembayaran
+  .metode-pembayaran {
+    margin-left: 15px;
+    border: 1px solid #d5d5d5;
+    border-radius: 5px;
+    height: 740px;
+    .metode {
+      img {
+        margin-left: 10px;
+      }
+      p {
+        margin-top: 25px;
+        font-size: 14px;
+      }
+      .number {
+        font-size: 14px;
+        font-weight: 500;
+      }
+      .number-3 {
+        position: relative;
+        top: 10px;
+      }
+      .card {
+        border: 1px solid #9da2aa;
+        border-radius: 5px;
+      }
+    }
+    .btn-secondary {
+      width: 80px;
+      border-radius: 5px;
+      color: white;
+      background-color: #1b273d;
+    }
+    .midtrans {
+      font-size: 16px;
+      color: #000;
+      font-weight: 500;
+    }
+    a:hover {
+      text-decoration: none;
+    }
+  }
+  .checkout {
+    border: 1px solid #d5d5d5;
+    border-radius: 5px;
+    .title {
+      font-size: 15px;
+      font-weight: 600;
+    }
+    .product-name {
+      font-size: 15px;
+
+      margin-top: 10px;
+      margin-bottom: -5px;
+    }
+    .price {
+      font-size: 12px;
+      font-weight: 600;
+
+      margin-top: 10px;
+      margin-bottom: -5px;
+      //   margin-top: 0px;
+    }
+  }
+  .metode {
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .hr {
+    border-bottom: 1px solid #d9d9d9;
+    margin-top: 100px;
+  }
+
+  .total {
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  .botton-checkout {
+    width: 100%;
+    background-color: #1b273d;
+    border-radius: 10px;
+  }
+  a {
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+  }
+}

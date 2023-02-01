@@ -1,0 +1,37 @@
+.transaction-success {
+  h3 {
+    margin-top: 120px;
+    font-family: "Inter", sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+    color: #1b273d;
+  }
+  h4 {
+    font-size: 28px;
+    color: #0c0d36;
+    margin-top: 8px;
+    font-weight: 400;
+  }
+  p {
+    font-size: 16px;
+    color: #525252;
+    margin-top: 10px;
+  }
+
+  a {
+    height: 45px;
+    width: 180px;
+    background-color: #1b273d;
+
+    p {
+      font-size: 16px;
+      font-weight: 500;
+      color: #fff;
+      position: relative;
+      top: -5px;
+    }
+  }
+  a:hover {
+    background-color: #1b273d;
+  }
+}
