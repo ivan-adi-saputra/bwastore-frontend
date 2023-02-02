@@ -9357,6 +9357,51 @@ footer .footer p {
   margin-bottom: 10px;
   margin-top: -10px;
 }
+.navbar-store .navbar-auth .btn-light {
+  border: 1px solid #1b273d;
+  border-radius: 5px;
+  height: 40px;
+  width: 120px;
+  background-color: #fff;
+  margin-right: 10px;
+  font-size: 15px;
+  font-weight: 500;
+  color: #1b273d;
+}
+.navbar-store .navbar-auth .btn-dark {
+  border: 1px solid #1b273d;
+  border-radius: 5px;
+  height: 40px;
+  width: 120px;
+  background-color: #1b273d;
+  font-size: 15px;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.search-navbar input {
+  width: 475px;
+}
+.search-navbar input::-moz-placeholder {
+  font-size: 13px;
+}
+.search-navbar input:-ms-input-placeholder {
+  font-size: 13px;
+}
+.search-navbar input::placeholder {
+  font-size: 13px;
+}
+.search-navbar .btn-dark {
+  background-color: #1b273d;
+  height: 24px;
+  width: 95px;
+  border-radius: 3px;
+  font-size: 13px;
+  line-height: 2px;
+  position: relative;
+  top: 4px;
+  left: -100px;
+}
 
 .navbar-fixed-top.scrolled {
   background-color: #fff !important;
@@ -10126,6 +10171,126 @@ footer .footer p {
 }
 .transaction-success a:hover {
   background-color: #1b273d;
+}
+
+.login {
+  margin: 0;
+  padding: 0;
+  background-image: url("/images/loginbgc.jpg");
+  /* background-repeat: repeat; */
+  background-position: center center;
+  background-size: cover;
+  min-height: 100vh;
+  /* object-fit: cover; */
+}
+.login .header {
+  margin-top: 35px;
+}
+.login .header .h4 {
+  font-weight: 600;
+  font-size: 35px;
+  color: #fff;
+  text-shadow: 2px 2px #bdbdbd;
+}
+.login label {
+  font-size: 17px;
+  color: #fff;
+  margin-top: 10px;
+}
+.login input {
+  background-color: #fff;
+  margin-top: 7px;
+  height: 57px;
+  border-radius: 8px;
+}
+.login input::-moz-placeholder {
+  font-size: 18px;
+}
+.login input:-ms-input-placeholder {
+  font-size: 18px;
+}
+.login input::placeholder {
+  font-size: 18px;
+}
+.login a {
+  text-decoration: none;
+}
+
+.btn-dark-auth {
+  width: 100%;
+  height: 57px;
+  border-radius: 6px;
+  margin-top: 25px;
+  background-color: #333639;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.text {
+  display: flex;
+  text-align: center;
+}
+@media (min-width: 992px) {
+  .text p {
+    margin-left: 100px;
+  }
+}
+@media (max-width: 991.98px) {
+  .text p {
+    margin-left: 30px;
+  }
+}
+.text p {
+  font-size: 13px;
+  color: #fff;
+}
+.text a {
+  font-size: 13px;
+  color: #fff;
+  margin-left: 5px;
+}
+
+.register {
+  margin: 0;
+  padding: 0;
+  background-image: url("/images/registerbgc.jpg");
+  /* background-repeat: repeat; */
+  background-position: center center;
+  background-size: cover;
+  min-height: 100vh;
+  /* object-fit: cover; */
+}
+.register h3 {
+  font-family: "Inter", sans-serif;
+  font-size: 30px;
+  color: #fff;
+  font-weight: 600;
+  text-shadow: 2px 2px #bdbdbd;
+}
+.register label {
+  font-size: 14px;
+  color: #fff;
+  font-weight: 500;
+  position: relative;
+  top: -8px;
+}
+.register input {
+  background-color: #fff;
+  margin-top: -10px;
+  height: 34px;
+  border-radius: 6px;
+}
+.register input::-moz-placeholder {
+  font-size: 14px;
+}
+.register input:-ms-input-placeholder {
+  font-size: 14px;
+}
+.register input::placeholder {
+  font-size: 14px;
+}
+.register .btn-dark-auth {
+  margin-top: 0;
 }
 
 .components-product .product {

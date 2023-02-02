@@ -1,0 +1,38 @@
+.register {
+  margin: 0;
+  padding: 0;
+  background-image: url("/images/registerbgc.jpg");
+  /* background-repeat: repeat; */
+  background-position: center center;
+  background-size: cover;
+  min-height: 100vh;
+  /* object-fit: cover; */
+
+  h3 {
+    font-family: "Inter", sans-serif;
+    font-size: 30px;
+    color: #fff;
+    font-weight: 600;
+    text-shadow: 2px 2px #bdbdbd;
+  }
+
+  label {
+    font-size: 14px;
+    color: #fff;
+    font-weight: 500;
+    position: relative;
+    top: -8px;
+  }
+  input {
+    background-color: #fff;
+    margin-top: -10px;
+    height: 34px;
+    border-radius: 6px;
+  }
+  input::placeholder {
+    font-size: 14px;
+  }
+  .btn-dark-auth {
+    margin-top: 0;
+  }
+}

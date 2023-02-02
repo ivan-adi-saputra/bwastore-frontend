@@ -56,6 +56,53 @@
       margin-top: -10px;
     }
   }
+
+  .navbar-auth {
+    .btn-light {
+      border: 1px solid #1b273d;
+      border-radius: 5px;
+      height: 40px;
+      width: 120px;
+      background-color: #fff;
+      margin-right: 10px;
+
+      font-size: 15px;
+      font-weight: 500;
+      color: #1b273d;
+    }
+    .btn-dark {
+      border: 1px solid #1b273d;
+      border-radius: 5px;
+      height: 40px;
+      width: 120px;
+      background-color: #1b273d;
+
+      font-size: 15px;
+      font-weight: 500;
+      color: #ffffff;
+    }
+  }
+}
+
+.search-navbar {
+  input {
+    width: 475px;
+  }
+  input::placeholder {
+    font-size: 13px;
+  }
+  .btn-dark {
+    background-color: #1b273d;
+    height: 24px;
+    width: 95px;
+    border-radius: 3px;
+    font-size: 13px;
+    line-height: 2px;
+
+    position: relative;
+    top: 4px;
+    left: -100px;
+  }
 }
 
 .navbar-fixed-top.scrolled {
